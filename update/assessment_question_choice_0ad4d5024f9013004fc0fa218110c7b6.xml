@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="assessment_question_choice">
+    <assessment_question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Question 1">b031e43d4f1013004fc0fa218110c759</question>
+        <rec_misc>0</rec_misc>
+        <score>2</score>
+        <sys_class_name>assessment_question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-16 19:59:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ad4d5024f9013004fc0fa218110c7b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>assessment_question_choice_0ad4d5024f9013004fc0fa218110c7b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-16 19:59:27</sys_updated_on>
+        <text/>
+        <value>Ans 1</value>
+    </assessment_question_choice>
+    <fx_price action="delete_multiple" query="id=0ad4d5024f9013004fc0fa218110c7b6"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>0ad4d5024f9013004fc0fa218110c7b6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-16 19:59:27</sys_created_on>
+        <sys_id>95e455024f9013004fc0fa218110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-16 19:59:27</sys_updated_on>
+        <table>assessment_question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>0ad4d5024f9013004fc0fa218110c7b6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-16 19:59:27</sys_created_on>
+        <sys_id>51e455024f9013004fc0fa218110c7fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-16 19:59:27</sys_updated_on>
+        <table>assessment_question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
